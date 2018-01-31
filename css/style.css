@@ -1,0 +1,66 @@
+/*Global & Reset*/
+* {
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+  	font-family: 'Cabin', sans-serif;
+	margin:0;
+	padding: 0;
+}
+/*Header*/
+.head{
+	display: block;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+}
+/*Main Content*/
+.content{	
+	width:100%;
+	height: 600px;
+	margin: 0 auto;
+	background: #396afc;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*Text Details*/
+.details{
+	color: #fff;
+	padding: 15% 5% 15% 5%;
+	font-size: 200%;
+}
+/*Tech Div*/
+.tech{
+	padding: 10% 0% 10% 0;
+	width:100%;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+}
+.title{
+	text-align: center;
+	font-size: 200%;
+}
+.box{
+	display: inline-block;
+	width: 150px;	
+	padding: 10px;
+	border: 1px solid #000;
+	margin :0 auto;
+	
+}
+
+/* Left Float*/
+.left{
+	float: left;
+}
+/*Right Float*/
+.right{
+	float: right;
+}
+/*Float Clear*/
+.clear{
+	clear: both;
+}
