@@ -29,6 +29,9 @@
 				<div class="place">
 					<h6>Hailing from Kottarakkara</h6>
 				</div>
+				<div class="email" id="email" onclick="reveal()">
+					<h6>Click To Reveal Email</h6>
+				</div>								
 				
 			</div>			
 		</div>
@@ -47,16 +50,23 @@
 			<div class="box ">
 				<div class="php"></div>
 			</div>
-			<div class="box ">
+			<div class="box">
 				<div class="wordpress"></div>
 			</div>
 		</div>
 	</content><!-- Main Content End -->
 
-	<footer class="footer clear"> <!-- Footer  -->
-		<p style="color: #cfcfcf;">Made with <span >&hearts;</span></p>
+	<footer class="footer"> <!-- Footer  -->
+		<p>Made with <span>&hearts;</span></p>
 		<a href=""></a>
 	</footer> <!-- Footer End -->
-	
+
+	<script type="text/javascript">
+		var contact = document.getElementById("email");
+		function reveal() {
+			contact.innerHTML = "<h6>finnyfound@gmail.com</h6>";
+		}
+
+	</script>
 </body>
 </html>
