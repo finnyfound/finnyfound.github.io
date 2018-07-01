@@ -42,7 +42,11 @@
 /*Text Details*/
 .details{
 	color: #fff;
+<<<<<<< HEAD
 	min-height: 700px;
+=======
+	min-height: 600px;
+>>>>>>> 16d868fe6e6220285c26724d9af898bf08a94fc7
 	padding: 15% 5%;
 	font-size: 200%;
 }
