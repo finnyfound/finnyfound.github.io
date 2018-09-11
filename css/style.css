@@ -43,6 +43,7 @@
 .details{
 	color: #fff;
 	min-height: 700px;
+	height: 100vh;
 	padding: 15% 5%;
 	font-size: 200%;
 }
@@ -56,7 +57,9 @@
 /*Tech Div*/
 .tech{
 	width:100%;
+	padding-top: 100px;
 	min-height: 600px;
+	height: 100vh;
 	margin: 0 auto;
 	text-align: center;
 	
